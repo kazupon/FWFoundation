@@ -46,6 +46,7 @@
 		CBF66AD713917960001AD176 /* FWHttpClientTest.m in Sources */ = {isa = PBXBuildFile; fileRef = CBF66AD613917960001AD176 /* FWHttpClientTest.m */; };
 		CBF66ADB13917975001AD176 /* GTMiOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBF66ADA13917975001AD176 /* GTMiOS.framework */; };
 		CBF66AE71391799A001AD176 /* GTMiOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBF66ADA13917975001AD176 /* GTMiOS.framework */; };
+		CBF66BB8139183FC001AD176 /* FWFoundation.bundle in Resources */ = {isa = PBXBuildFile; fileRef = CBF66BB7139183FC001AD176 /* FWFoundation.bundle */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -83,6 +84,7 @@
 		CBF66AD113917953001AD176 /* FWHttpClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FWHttpClient.m; sourceTree = "<group>"; };
 		CBF66AD613917960001AD176 /* FWHttpClientTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FWHttpClientTest.m; sourceTree = "<group>"; };
 		CBF66ADA13917975001AD176 /* GTMiOS.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GTMiOS.framework; path = Frameworks/GTMiOS.framework; sourceTree = "<group>"; };
+		CBF66BB7139183FC001AD176 /* FWFoundation.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = FWFoundation.bundle; path = Tests/Data/FWFoundation.bundle; sourceTree = SOURCE_ROOT; };
 		D2AAC07E0554694100DB518D /* libFWFoundation.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libFWFoundation.a; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -167,6 +169,7 @@
 		CBE94707138FB94600E0DC0A /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				CBF66BB7139183FC001AD176 /* FWFoundation.bundle */,
 				CBF6692E1390F576001AD176 /* Info.plist */,
 			);
 			name = Resources;
@@ -235,6 +238,7 @@
 				CBF669901390F6E3001AD176 /* Resources */,
 				CBF669911390F6E3001AD176 /* Sources */,
 				CBF669921390F6E3001AD176 /* Frameworks */,
+				CBF66BBE1391840C001AD176 /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -293,10 +297,27 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CBF66BB8139183FC001AD176 /* FWFoundation.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		CBF66BBE1391840C001AD176 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "sh ./Scripts/RunTests.sh";
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		CBF669911390F6E3001AD176 /* Sources */ = {
