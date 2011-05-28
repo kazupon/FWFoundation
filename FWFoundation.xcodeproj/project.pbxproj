@@ -29,6 +29,10 @@
 		CBF66A9C13916EDF001AD176 /* NSMutableDictionary+Addition.m in Sources */ = {isa = PBXBuildFile; fileRef = CBF66A9B13916EDF001AD176 /* NSMutableDictionary+Addition.m */; };
 		CBF66A9D13916EDF001AD176 /* NSMutableDictionary+Addition.m in Sources */ = {isa = PBXBuildFile; fileRef = CBF66A9B13916EDF001AD176 /* NSMutableDictionary+Addition.m */; };
 		CBF66A9F13916EEA001AD176 /* NSMutableDictionary+AdditionTest.m in Sources */ = {isa = PBXBuildFile; fileRef = CBF66A9E13916EEA001AD176 /* NSMutableDictionary+AdditionTest.m */; };
+		CBF66AA813917045001AD176 /* NSBundle+Addition.h in Headers */ = {isa = PBXBuildFile; fileRef = CBF66AA713917044001AD176 /* NSBundle+Addition.h */; };
+		CBF66AAA1391704D001AD176 /* NSBundle+Addition.m in Sources */ = {isa = PBXBuildFile; fileRef = CBF66AA91391704D001AD176 /* NSBundle+Addition.m */; };
+		CBF66AAB1391704D001AD176 /* NSBundle+Addition.m in Sources */ = {isa = PBXBuildFile; fileRef = CBF66AA91391704D001AD176 /* NSBundle+Addition.m */; };
+		CBF66AAD13917058001AD176 /* NSBundle+AdditionTest.m in Sources */ = {isa = PBXBuildFile; fileRef = CBF66AAC13917058001AD176 /* NSBundle+AdditionTest.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -54,6 +58,9 @@
 		CBF66A9913916ED6001AD176 /* NSMutableDictionary+Addition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableDictionary+Addition.h"; sourceTree = "<group>"; };
 		CBF66A9B13916EDF001AD176 /* NSMutableDictionary+Addition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableDictionary+Addition.m"; sourceTree = "<group>"; };
 		CBF66A9E13916EEA001AD176 /* NSMutableDictionary+AdditionTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableDictionary+AdditionTest.m"; sourceTree = "<group>"; };
+		CBF66AA713917044001AD176 /* NSBundle+Addition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSBundle+Addition.h"; sourceTree = "<group>"; };
+		CBF66AA91391704D001AD176 /* NSBundle+Addition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSBundle+Addition.m"; sourceTree = "<group>"; };
+		CBF66AAC13917058001AD176 /* NSBundle+AdditionTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSBundle+AdditionTest.m"; sourceTree = "<group>"; };
 		D2AAC07E0554694100DB518D /* libFWFoundation.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libFWFoundation.a; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -119,6 +126,7 @@
 		CBE94706138FB93D00E0DC0A /* Tests */ = {
 			isa = PBXGroup;
 			children = (
+				CBF66AAC13917058001AD176 /* NSBundle+AdditionTest.m */,
 				CBF66A9E13916EEA001AD176 /* NSMutableDictionary+AdditionTest.m */,
 				CBF66A9013916D99001AD176 /* NSDictionary+AdditionTest.m */,
 				CBF66A7B139104F3001AD176 /* NSObject+AdditionTest.m */,
@@ -141,6 +149,7 @@
 		CBE94708138FB95700E0DC0A /* Sources */ = {
 			isa = PBXGroup;
 			children = (
+				CBF66AA91391704D001AD176 /* NSBundle+Addition.m */,
 				CBF66A9B13916EDF001AD176 /* NSMutableDictionary+Addition.m */,
 				CBF66A8D13916D8F001AD176 /* NSDictionary+Addition.m */,
 				CBF66A78139104DB001AD176 /* NSObject+Addition.m */,
@@ -152,6 +161,7 @@
 		CBE94709138FB95D00E0DC0A /* Headers */ = {
 			isa = PBXGroup;
 			children = (
+				CBF66AA713917044001AD176 /* NSBundle+Addition.h */,
 				CBF66A9913916ED6001AD176 /* NSMutableDictionary+Addition.h */,
 				CBF66A8B13916D84001AD176 /* NSDictionary+Addition.h */,
 				CBF66A76139104C8001AD176 /* NSObject+Addition.h */,
@@ -175,6 +185,7 @@
 				CBF66A77139104C8001AD176 /* NSObject+Addition.h in Headers */,
 				CBF66A8C13916D84001AD176 /* NSDictionary+Addition.h in Headers */,
 				CBF66A9A13916ED6001AD176 /* NSMutableDictionary+Addition.h in Headers */,
+				CBF66AA813917045001AD176 /* NSBundle+Addition.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -264,6 +275,8 @@
 				CBF66A9113916D99001AD176 /* NSDictionary+AdditionTest.m in Sources */,
 				CBF66A9C13916EDF001AD176 /* NSMutableDictionary+Addition.m in Sources */,
 				CBF66A9F13916EEA001AD176 /* NSMutableDictionary+AdditionTest.m in Sources */,
+				CBF66AAA1391704D001AD176 /* NSBundle+Addition.m in Sources */,
+				CBF66AAD13917058001AD176 /* NSBundle+AdditionTest.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -274,6 +287,7 @@
 				CBF66A7A139104DB001AD176 /* NSObject+Addition.m in Sources */,
 				CBF66A8F13916D8F001AD176 /* NSDictionary+Addition.m in Sources */,
 				CBF66A9D13916EDF001AD176 /* NSMutableDictionary+Addition.m in Sources */,
+				CBF66AAB1391704D001AD176 /* NSBundle+Addition.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
