@@ -37,6 +37,15 @@
 		CBF66AB5139171BF001AD176 /* NSData+Addition.m in Sources */ = {isa = PBXBuildFile; fileRef = CBF66AB4139171BF001AD176 /* NSData+Addition.m */; };
 		CBF66AB6139171BF001AD176 /* NSData+Addition.m in Sources */ = {isa = PBXBuildFile; fileRef = CBF66AB4139171BF001AD176 /* NSData+Addition.m */; };
 		CBF66AB8139171C9001AD176 /* NSData+AdditionTest.m in Sources */ = {isa = PBXBuildFile; fileRef = CBF66AB7139171C9001AD176 /* NSData+AdditionTest.m */; };
+		CBF66ACE13917947001AD176 /* FWFoundationDefines.h in Headers */ = {isa = PBXBuildFile; fileRef = CBF66ACC13917947001AD176 /* FWFoundationDefines.h */; };
+		CBF66ACF13917947001AD176 /* FWHttpClient.h in Headers */ = {isa = PBXBuildFile; fileRef = CBF66ACD13917947001AD176 /* FWHttpClient.h */; };
+		CBF66AD213917953001AD176 /* FWFoundationDefines.m in Sources */ = {isa = PBXBuildFile; fileRef = CBF66AD013917953001AD176 /* FWFoundationDefines.m */; };
+		CBF66AD313917953001AD176 /* FWHttpClient.m in Sources */ = {isa = PBXBuildFile; fileRef = CBF66AD113917953001AD176 /* FWHttpClient.m */; };
+		CBF66AD413917953001AD176 /* FWFoundationDefines.m in Sources */ = {isa = PBXBuildFile; fileRef = CBF66AD013917953001AD176 /* FWFoundationDefines.m */; };
+		CBF66AD513917953001AD176 /* FWHttpClient.m in Sources */ = {isa = PBXBuildFile; fileRef = CBF66AD113917953001AD176 /* FWHttpClient.m */; };
+		CBF66AD713917960001AD176 /* FWHttpClientTest.m in Sources */ = {isa = PBXBuildFile; fileRef = CBF66AD613917960001AD176 /* FWHttpClientTest.m */; };
+		CBF66ADB13917975001AD176 /* GTMiOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBF66ADA13917975001AD176 /* GTMiOS.framework */; };
+		CBF66AE71391799A001AD176 /* GTMiOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBF66ADA13917975001AD176 /* GTMiOS.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -68,6 +77,12 @@
 		CBF66AB2139171B6001AD176 /* NSData+Addition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+Addition.h"; sourceTree = "<group>"; };
 		CBF66AB4139171BF001AD176 /* NSData+Addition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+Addition.m"; sourceTree = "<group>"; };
 		CBF66AB7139171C9001AD176 /* NSData+AdditionTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+AdditionTest.m"; sourceTree = "<group>"; };
+		CBF66ACC13917947001AD176 /* FWFoundationDefines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FWFoundationDefines.h; sourceTree = "<group>"; };
+		CBF66ACD13917947001AD176 /* FWHttpClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FWHttpClient.h; sourceTree = "<group>"; };
+		CBF66AD013917953001AD176 /* FWFoundationDefines.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FWFoundationDefines.m; sourceTree = "<group>"; };
+		CBF66AD113917953001AD176 /* FWHttpClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FWHttpClient.m; sourceTree = "<group>"; };
+		CBF66AD613917960001AD176 /* FWHttpClientTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FWHttpClientTest.m; sourceTree = "<group>"; };
+		CBF66ADA13917975001AD176 /* GTMiOS.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GTMiOS.framework; path = Frameworks/GTMiOS.framework; sourceTree = "<group>"; };
 		D2AAC07E0554694100DB518D /* libFWFoundation.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libFWFoundation.a; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -76,6 +91,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CBF66AE71391799A001AD176 /* GTMiOS.framework in Frameworks */,
 				CBF6699D1390F9E7001AD176 /* GHUnitIOS.framework in Frameworks */,
 				CBF669A11390FA10001AD176 /* CoreGraphics.framework in Frameworks */,
 				CBF669A21390FA10001AD176 /* Foundation.framework in Frameworks */,
@@ -88,6 +104,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				AACBBE4A0F95108600F1A2B1 /* Foundation.framework in Frameworks */,
+				CBF66ADB13917975001AD176 /* GTMiOS.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -122,6 +139,7 @@
 		0867D69AFE84028FC02AAC07 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				CBF66ADA13917975001AD176 /* GTMiOS.framework */,
 				CBF6699C1390F9E7001AD176 /* GHUnitIOS.framework */,
 				CBF669A01390FA10001AD176 /* CoreGraphics.framework */,
 				CBF669A31390FA10001AD176 /* UIKit.framework */,
@@ -133,6 +151,7 @@
 		CBE94706138FB93D00E0DC0A /* Tests */ = {
 			isa = PBXGroup;
 			children = (
+				CBF66AD613917960001AD176 /* FWHttpClientTest.m */,
 				CBF66AB7139171C9001AD176 /* NSData+AdditionTest.m */,
 				CBF66AAC13917058001AD176 /* NSBundle+AdditionTest.m */,
 				CBF66A9E13916EEA001AD176 /* NSMutableDictionary+AdditionTest.m */,
@@ -157,6 +176,8 @@
 		CBE94708138FB95700E0DC0A /* Sources */ = {
 			isa = PBXGroup;
 			children = (
+				CBF66AD013917953001AD176 /* FWFoundationDefines.m */,
+				CBF66AD113917953001AD176 /* FWHttpClient.m */,
 				CBF66AB4139171BF001AD176 /* NSData+Addition.m */,
 				CBF66AA91391704D001AD176 /* NSBundle+Addition.m */,
 				CBF66A9B13916EDF001AD176 /* NSMutableDictionary+Addition.m */,
@@ -170,6 +191,8 @@
 		CBE94709138FB95D00E0DC0A /* Headers */ = {
 			isa = PBXGroup;
 			children = (
+				CBF66ACC13917947001AD176 /* FWFoundationDefines.h */,
+				CBF66ACD13917947001AD176 /* FWHttpClient.h */,
 				CBF66AB2139171B6001AD176 /* NSData+Addition.h */,
 				CBF66AA713917044001AD176 /* NSBundle+Addition.h */,
 				CBF66A9913916ED6001AD176 /* NSMutableDictionary+Addition.h */,
@@ -197,6 +220,8 @@
 				CBF66A9A13916ED6001AD176 /* NSMutableDictionary+Addition.h in Headers */,
 				CBF66AA813917045001AD176 /* NSBundle+Addition.h in Headers */,
 				CBF66AB3139171B6001AD176 /* NSData+Addition.h in Headers */,
+				CBF66ACE13917947001AD176 /* FWFoundationDefines.h in Headers */,
+				CBF66ACF13917947001AD176 /* FWHttpClient.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -290,6 +315,9 @@
 				CBF66AAD13917058001AD176 /* NSBundle+AdditionTest.m in Sources */,
 				CBF66AB5139171BF001AD176 /* NSData+Addition.m in Sources */,
 				CBF66AB8139171C9001AD176 /* NSData+AdditionTest.m in Sources */,
+				CBF66AD213917953001AD176 /* FWFoundationDefines.m in Sources */,
+				CBF66AD313917953001AD176 /* FWHttpClient.m in Sources */,
+				CBF66AD713917960001AD176 /* FWHttpClientTest.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -302,6 +330,8 @@
 				CBF66A9D13916EDF001AD176 /* NSMutableDictionary+Addition.m in Sources */,
 				CBF66AAB1391704D001AD176 /* NSBundle+Addition.m in Sources */,
 				CBF66AB6139171BF001AD176 /* NSData+Addition.m in Sources */,
+				CBF66AD413917953001AD176 /* FWFoundationDefines.m in Sources */,
+				CBF66AD513917953001AD176 /* FWHttpClient.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -315,6 +345,10 @@
 				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
 				COPY_PHASE_STRIP = NO;
 				DSTROOT = /tmp/FWFoundation.dst;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/Frameworks\"",
+				);
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_ENABLE_FIX_AND_CONTINUE = YES;
 				GCC_MODEL_TUNING = G5;
@@ -334,6 +368,10 @@
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
 				DSTROOT = /tmp/FWFoundation.dst;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/Frameworks\"",
+				);
 				GCC_MODEL_TUNING = G5;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = FWFoundation_Prefix.pch;

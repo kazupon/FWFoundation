@@ -1,7 +1,7 @@
 /*!
- * @header FWFoundatoin
+ * @header FWFoundation
  *
- * @framework FWFoundatoin
+ * @framework FWFoundation
  *
  * @abstract
  *  This framework is the core framework.
@@ -15,7 +15,12 @@
  * @copyright kazuya kawaguchi & frapwings
  */
 
-#import "FWFoundatoinDefines.h"
+#import "FWFoundationDefines.h"
 #import "FWDebug.h"
 #import "NSObject+Addition.h"
+#import "NSDictionary+Addition.h"
+#import "NSMutalbeDictionay+Addition.h"
+#import "NSBundle+Addition.h"
+#import "NSData+Addition.h"
+#import "FWHttpClient.h"
 
