@@ -15,6 +15,9 @@
 		CBF669A21390FA10001AD176 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AACBBE490F95108600F1A2B1 /* Foundation.framework */; };
 		CBF669A41390FA10001AD176 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBF669A31390FA10001AD176 /* UIKit.framework */; };
 		CBF66A491390FB82001AD176 /* GHUnitIOSTestMain.m in Sources */ = {isa = PBXBuildFile; fileRef = CBF66A481390FB82001AD176 /* GHUnitIOSTestMain.m */; };
+		CBF66A5D13910106001AD176 /* FWDebug.h in Headers */ = {isa = PBXBuildFile; fileRef = CBF66A5B13910106001AD176 /* FWDebug.h */; };
+		CBF66A5E13910106001AD176 /* FWFoundation.h in Headers */ = {isa = PBXBuildFile; fileRef = CBF66A5C13910106001AD176 /* FWFoundation.h */; };
+		CBF66A6013910147001AD176 /* FWDebugTest.m in Sources */ = {isa = PBXBuildFile; fileRef = CBF66A5F13910147001AD176 /* FWDebugTest.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +32,9 @@
 		CBF669A31390FA10001AD176 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		CBF66A371390FA6F001AD176 /* Tests_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Tests_Prefix.pch; sourceTree = "<group>"; };
 		CBF66A481390FB82001AD176 /* GHUnitIOSTestMain.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GHUnitIOSTestMain.m; sourceTree = "<group>"; };
+		CBF66A5B13910106001AD176 /* FWDebug.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FWDebug.h; sourceTree = "<group>"; };
+		CBF66A5C13910106001AD176 /* FWFoundation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FWFoundation.h; sourceTree = "<group>"; };
+		CBF66A5F13910147001AD176 /* FWDebugTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FWDebugTest.m; sourceTree = "<group>"; };
 		D2AAC07E0554694100DB518D /* libFWFoundation.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libFWFoundation.a; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -94,6 +100,7 @@
 		CBE94706138FB93D00E0DC0A /* Tests */ = {
 			isa = PBXGroup;
 			children = (
+				CBF66A5F13910147001AD176 /* FWDebugTest.m */,
 				CBF66A481390FB82001AD176 /* GHUnitIOSTestMain.m */,
 			);
 			name = Tests;
@@ -121,6 +128,8 @@
 		CBE94709138FB95D00E0DC0A /* Headers */ = {
 			isa = PBXGroup;
 			children = (
+				CBF66A5B13910106001AD176 /* FWDebug.h */,
+				CBF66A5C13910106001AD176 /* FWFoundation.h */,
 			);
 			name = Headers;
 			path = /Users/kazupon/Projects/frapwings/libraries/apple/FWFoundation/Headers;
@@ -134,6 +143,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				AA747D9F0F9514B9006C5449 /* FWFoundation_Prefix.pch in Headers */,
+				CBF66A5D13910106001AD176 /* FWDebug.h in Headers */,
+				CBF66A5E13910106001AD176 /* FWFoundation.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -216,6 +227,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CBF66A491390FB82001AD176 /* GHUnitIOSTestMain.m in Sources */,
+				CBF66A6013910147001AD176 /* FWDebugTest.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
