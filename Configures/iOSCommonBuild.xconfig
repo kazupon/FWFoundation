@@ -1,0 +1,10 @@
+//   
+//  iOSCommonBuild.xcconfig
+//  FWFoundation
+//  
+//  Copyright 2011 kazuya kawaguchi & frapwings All rights reserved.
+//  
+
+TARGETED_DEVICE_FAMILY = iPhone/iPad
+IPHONEOS_DEPLOYMENT_TARGET = 3.0
+

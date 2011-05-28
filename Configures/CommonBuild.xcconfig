@@ -1,0 +1,19 @@
+//   
+//  CommonBuild.xcconfig
+//  FWFoundation
+//  
+//  Copyright 2011 kazuya kawaguchi & frapwings All rights reserved.
+//  
+
+OTHER_LDFLAGS = -ObjC
+PRODUCT_NAME = FWFoundation
+
+FRAMEWORK_SEARCH_PATHS = $(inherited) "$(SRCROOT)/Frameworks"
+HEADER_SEARCH_PATHS = 
+LIBRARY_SEARCH_PATHS = 
+
+GCC_ENABLE_OBJC_GC = unsupported
+GCC_C_LANGUAGE_STANDARD = c99
+//OTHER_CFLAGS = 
+OTHER_CPLUSPLUSFLAGS = $(OTHER_CFLAGS)
+GCC_PREFIX_HEADER = $(PRODUCT_NAME)_Prefix.pch

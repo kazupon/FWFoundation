@@ -1,0 +1,19 @@
+//   
+//  iPhoneDeviceBuild.xcconfig
+//  FWFoundation
+//  
+//  Copyright 2011 kazuya kawaguchi & frapwings All rights reserved.
+//  
+
+#include "./CommonBuild.xcconfig"
+#include "./iOSCommonBuild.xconfig"
+
+ARCHS = $(ARCHS_STANDARD_32_BIT)
+SDKROOT = iphoneos
+ONLY_ACTIVE_ARCH = NO
+VALID_ARCHS = armv6 armv7
+
+CODE_SIGN_IDENTITY = 
+CODE_SIGN_RESOURCE_RULES_PATH = 
+OTHER_CODE_SIGN_FLAGS = 
+

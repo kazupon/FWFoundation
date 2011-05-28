@@ -1,0 +1,21 @@
+//   
+//  iPhoneSimulatorBuild.xcconfig
+//  FWFoundation
+//  
+//  Copyright 2011 kazuya kawaguchi & frapwings All rights reserved.
+//  
+
+#include "./CommonBuild.xcconfig"
+#include "./iOSCommonBuild.xconfig"
+
+ARCHS = i386
+SDKROOT = iphonesimulator
+ONLY_ACTIVE_ARCH = NO
+VALID_ARCHS = i386
+
+GCC_PREFIX_HEADER = Tests_Prefix.pch
+
+CODE_SIGN_IDENTITY = 
+CODE_SIGN_RESOURCE_RULES_PATH = 
+OTHER_CODE_SIGN_FLAGS = 
+

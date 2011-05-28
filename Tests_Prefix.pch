@@ -1,0 +1,21 @@
+//
+// Prefix header for all source files of the 'CocoaTouchStaticLibrary' target in the 'CocoaTouchStaticLibrary' project.
+//
+
+#ifdef __OBJC__
+    #import <Foundation/Foundation.h>
+    #import <UIKit/UIKit.h>
+    #import <GHUnitIOS/GHUnit.h>
+#endif
+
+#if defined(NS_BLOCK_ASSERTIONS)
+    #define DEBUG(format, ...) FW_DEBUG(format, ##__VA_ARGS__)
+    #define INFO(format, ...) FW_INFO(format, ##__VA_ARGS__)
+    #define WARN(format, ...) FW_WARN(format, ##__VA_ARGS__)
+    #define ERROR(format, ...) FW_ERROR(format, ##__VA_ARGS__)
+#else
+    #define DEBUG(format, ...) ;
+    #define INFO(format, ...) ;
+    #define WARN(format, ...) ;
+    #define ERROR(format, ...) ;
+#endif
