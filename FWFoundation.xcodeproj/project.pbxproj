@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		AA747D9F0F9514B9006C5449 /* FWFoundation_Prefix.pch in Headers */ = {isa = PBXBuildFile; fileRef = AA747D9E0F9514B9006C5449 /* FWFoundation_Prefix.pch */; };
 		AACBBE4A0F95108600F1A2B1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AACBBE490F95108600F1A2B1 /* Foundation.framework */; };
-		CBE94717138FBBCC00E0DC0A /* hoge.m in Sources */ = {isa = PBXBuildFile; fileRef = CBE94716138FBBCC00E0DC0A /* hoge.m */; };
 		CBF6699D1390F9E7001AD176 /* GHUnitIOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBF6699C1390F9E7001AD176 /* GHUnitIOS.framework */; };
 		CBF669A11390FA10001AD176 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBF669A01390FA10001AD176 /* CoreGraphics.framework */; };
 		CBF669A21390FA10001AD176 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AACBBE490F95108600F1A2B1 /* Foundation.framework */; };
@@ -18,12 +17,15 @@
 		CBF66A5D13910106001AD176 /* FWDebug.h in Headers */ = {isa = PBXBuildFile; fileRef = CBF66A5B13910106001AD176 /* FWDebug.h */; };
 		CBF66A5E13910106001AD176 /* FWFoundation.h in Headers */ = {isa = PBXBuildFile; fileRef = CBF66A5C13910106001AD176 /* FWFoundation.h */; };
 		CBF66A6013910147001AD176 /* FWDebugTest.m in Sources */ = {isa = PBXBuildFile; fileRef = CBF66A5F13910147001AD176 /* FWDebugTest.m */; };
+		CBF66A77139104C8001AD176 /* NSObject+Addition.h in Headers */ = {isa = PBXBuildFile; fileRef = CBF66A76139104C8001AD176 /* NSObject+Addition.h */; };
+		CBF66A79139104DB001AD176 /* NSObject+Addition.m in Sources */ = {isa = PBXBuildFile; fileRef = CBF66A78139104DB001AD176 /* NSObject+Addition.m */; };
+		CBF66A7A139104DB001AD176 /* NSObject+Addition.m in Sources */ = {isa = PBXBuildFile; fileRef = CBF66A78139104DB001AD176 /* NSObject+Addition.m */; };
+		CBF66A7C139104F3001AD176 /* NSObject+AdditionTest.m in Sources */ = {isa = PBXBuildFile; fileRef = CBF66A7B139104F3001AD176 /* NSObject+AdditionTest.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		AA747D9E0F9514B9006C5449 /* FWFoundation_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FWFoundation_Prefix.pch; sourceTree = "<group>"; };
 		AACBBE490F95108600F1A2B1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		CBE94716138FBBCC00E0DC0A /* hoge.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = hoge.m; path = /Users/kazupon/Projects/frapwings/libraries/apple/FWFoundation/Sources/hoge.m; sourceTree = "<absolute>"; };
 		CBF6692E1390F576001AD176 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CBF669941390F6E3001AD176 /* Tests.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tests.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CBF669961390F6E3001AD176 /* Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Tests-Info.plist"; sourceTree = "<group>"; };
@@ -35,6 +37,9 @@
 		CBF66A5B13910106001AD176 /* FWDebug.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FWDebug.h; sourceTree = "<group>"; };
 		CBF66A5C13910106001AD176 /* FWFoundation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FWFoundation.h; sourceTree = "<group>"; };
 		CBF66A5F13910147001AD176 /* FWDebugTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FWDebugTest.m; sourceTree = "<group>"; };
+		CBF66A76139104C8001AD176 /* NSObject+Addition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+Addition.h"; sourceTree = "<group>"; };
+		CBF66A78139104DB001AD176 /* NSObject+Addition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+Addition.m"; sourceTree = "<group>"; };
+		CBF66A7B139104F3001AD176 /* NSObject+AdditionTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+AdditionTest.m"; sourceTree = "<group>"; };
 		D2AAC07E0554694100DB518D /* libFWFoundation.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libFWFoundation.a; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -100,6 +105,7 @@
 		CBE94706138FB93D00E0DC0A /* Tests */ = {
 			isa = PBXGroup;
 			children = (
+				CBF66A7B139104F3001AD176 /* NSObject+AdditionTest.m */,
 				CBF66A5F13910147001AD176 /* FWDebugTest.m */,
 				CBF66A481390FB82001AD176 /* GHUnitIOSTestMain.m */,
 			);
@@ -119,7 +125,7 @@
 		CBE94708138FB95700E0DC0A /* Sources */ = {
 			isa = PBXGroup;
 			children = (
-				CBE94716138FBBCC00E0DC0A /* hoge.m */,
+				CBF66A78139104DB001AD176 /* NSObject+Addition.m */,
 			);
 			name = Sources;
 			path = /Users/kazupon/Projects/frapwings/libraries/apple/FWFoundation/Sources;
@@ -128,6 +134,7 @@
 		CBE94709138FB95D00E0DC0A /* Headers */ = {
 			isa = PBXGroup;
 			children = (
+				CBF66A76139104C8001AD176 /* NSObject+Addition.h */,
 				CBF66A5B13910106001AD176 /* FWDebug.h */,
 				CBF66A5C13910106001AD176 /* FWFoundation.h */,
 			);
@@ -145,6 +152,7 @@
 				AA747D9F0F9514B9006C5449 /* FWFoundation_Prefix.pch in Headers */,
 				CBF66A5D13910106001AD176 /* FWDebug.h in Headers */,
 				CBF66A5E13910106001AD176 /* FWFoundation.h in Headers */,
+				CBF66A77139104C8001AD176 /* NSObject+Addition.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -228,6 +236,8 @@
 			files = (
 				CBF66A491390FB82001AD176 /* GHUnitIOSTestMain.m in Sources */,
 				CBF66A6013910147001AD176 /* FWDebugTest.m in Sources */,
+				CBF66A79139104DB001AD176 /* NSObject+Addition.m in Sources */,
+				CBF66A7C139104F3001AD176 /* NSObject+AdditionTest.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -235,7 +245,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CBE94717138FBBCC00E0DC0A /* hoge.m in Sources */,
+				CBF66A7A139104DB001AD176 /* NSObject+Addition.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

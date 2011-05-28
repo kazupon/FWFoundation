@@ -17,4 +17,5 @@
 
 #import "FWFoundatoinDefines.h"
 #import "FWDebug.h"
+#import "NSObject+Addition.h"
 
