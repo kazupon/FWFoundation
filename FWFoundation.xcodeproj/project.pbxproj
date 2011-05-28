@@ -21,6 +21,10 @@
 		CBF66A79139104DB001AD176 /* NSObject+Addition.m in Sources */ = {isa = PBXBuildFile; fileRef = CBF66A78139104DB001AD176 /* NSObject+Addition.m */; };
 		CBF66A7A139104DB001AD176 /* NSObject+Addition.m in Sources */ = {isa = PBXBuildFile; fileRef = CBF66A78139104DB001AD176 /* NSObject+Addition.m */; };
 		CBF66A7C139104F3001AD176 /* NSObject+AdditionTest.m in Sources */ = {isa = PBXBuildFile; fileRef = CBF66A7B139104F3001AD176 /* NSObject+AdditionTest.m */; };
+		CBF66A8C13916D84001AD176 /* NSDictionary+Addition.h in Headers */ = {isa = PBXBuildFile; fileRef = CBF66A8B13916D84001AD176 /* NSDictionary+Addition.h */; };
+		CBF66A8E13916D8F001AD176 /* NSDictionary+Addition.m in Sources */ = {isa = PBXBuildFile; fileRef = CBF66A8D13916D8F001AD176 /* NSDictionary+Addition.m */; };
+		CBF66A8F13916D8F001AD176 /* NSDictionary+Addition.m in Sources */ = {isa = PBXBuildFile; fileRef = CBF66A8D13916D8F001AD176 /* NSDictionary+Addition.m */; };
+		CBF66A9113916D99001AD176 /* NSDictionary+AdditionTest.m in Sources */ = {isa = PBXBuildFile; fileRef = CBF66A9013916D99001AD176 /* NSDictionary+AdditionTest.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -40,6 +44,9 @@
 		CBF66A76139104C8001AD176 /* NSObject+Addition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+Addition.h"; sourceTree = "<group>"; };
 		CBF66A78139104DB001AD176 /* NSObject+Addition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+Addition.m"; sourceTree = "<group>"; };
 		CBF66A7B139104F3001AD176 /* NSObject+AdditionTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+AdditionTest.m"; sourceTree = "<group>"; };
+		CBF66A8B13916D84001AD176 /* NSDictionary+Addition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+Addition.h"; sourceTree = "<group>"; };
+		CBF66A8D13916D8F001AD176 /* NSDictionary+Addition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+Addition.m"; sourceTree = "<group>"; };
+		CBF66A9013916D99001AD176 /* NSDictionary+AdditionTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+AdditionTest.m"; sourceTree = "<group>"; };
 		D2AAC07E0554694100DB518D /* libFWFoundation.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libFWFoundation.a; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -105,6 +112,7 @@
 		CBE94706138FB93D00E0DC0A /* Tests */ = {
 			isa = PBXGroup;
 			children = (
+				CBF66A9013916D99001AD176 /* NSDictionary+AdditionTest.m */,
 				CBF66A7B139104F3001AD176 /* NSObject+AdditionTest.m */,
 				CBF66A5F13910147001AD176 /* FWDebugTest.m */,
 				CBF66A481390FB82001AD176 /* GHUnitIOSTestMain.m */,
@@ -125,6 +133,7 @@
 		CBE94708138FB95700E0DC0A /* Sources */ = {
 			isa = PBXGroup;
 			children = (
+				CBF66A8D13916D8F001AD176 /* NSDictionary+Addition.m */,
 				CBF66A78139104DB001AD176 /* NSObject+Addition.m */,
 			);
 			name = Sources;
@@ -134,6 +143,7 @@
 		CBE94709138FB95D00E0DC0A /* Headers */ = {
 			isa = PBXGroup;
 			children = (
+				CBF66A8B13916D84001AD176 /* NSDictionary+Addition.h */,
 				CBF66A76139104C8001AD176 /* NSObject+Addition.h */,
 				CBF66A5B13910106001AD176 /* FWDebug.h */,
 				CBF66A5C13910106001AD176 /* FWFoundation.h */,
@@ -153,6 +163,7 @@
 				CBF66A5D13910106001AD176 /* FWDebug.h in Headers */,
 				CBF66A5E13910106001AD176 /* FWFoundation.h in Headers */,
 				CBF66A77139104C8001AD176 /* NSObject+Addition.h in Headers */,
+				CBF66A8C13916D84001AD176 /* NSDictionary+Addition.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -238,6 +249,8 @@
 				CBF66A6013910147001AD176 /* FWDebugTest.m in Sources */,
 				CBF66A79139104DB001AD176 /* NSObject+Addition.m in Sources */,
 				CBF66A7C139104F3001AD176 /* NSObject+AdditionTest.m in Sources */,
+				CBF66A8E13916D8F001AD176 /* NSDictionary+Addition.m in Sources */,
+				CBF66A9113916D99001AD176 /* NSDictionary+AdditionTest.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -246,6 +259,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CBF66A7A139104DB001AD176 /* NSObject+Addition.m in Sources */,
+				CBF66A8F13916D8F001AD176 /* NSDictionary+Addition.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
