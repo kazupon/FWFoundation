@@ -1,6 +1,6 @@
 //   
 //  NSMutableDictionary+Addition.h
-//  FWFoundatoin
+//  FWFoundation
 //  
 //  Created by kazuya kawaguchi on 2011-05-29
 //  Copyright 2011 kazuya kawaguchi & frapwings All rights reserved.
@@ -13,9 +13,10 @@
  * @abstract
  *  This category is extended in NSMutableDictionary.
  * @discussion
+ *  TODO: write description ...
  *
  * @availability
- *  FWFoundatoin 0.1
+ *  FWFoundation 0.1
  */
 @interface NSMutableDictionary (Addition)
 
@@ -24,11 +25,12 @@
  * @abstract
  *  Check the key exisits in dicitionary.
  * @discussion
+ *  TODO: write description ...
  *
  * @param key The key.
  * @result YES or NO.
  * @availability
- *  FWFoundatoin 0.1
+ *  FWFoundation 0.1
  */
 - (BOOL)isExist:(id)key;
 

@@ -1,6 +1,6 @@
 //   
 //  NSData+Addition.h
-//  FWFoundatoin
+//  FWFoundation
 //  
 //  Created by kazuya kawaguchi on 2011-05-29
 //  Copyright 2011 kazuya kawaguchi & frapwings All rights reserved.

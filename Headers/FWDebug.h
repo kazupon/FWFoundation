@@ -1,6 +1,6 @@
 //   
 //  FWDebug.h
-//  FWFoundatoin
+//  FWFoundation
 //  
 //  Created by kazuya kawaguchi on 2011-05-28
 //  Copyright 2011 kazuya kawaguchi & frapwings All rights reserved.

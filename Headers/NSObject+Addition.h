@@ -1,8 +1,8 @@
 //   
 //  NSObject+Addition.h
-//  FWFoundatoin
+//  FWFoundation
 //  
-//  Created by kazuya kawaguchi on 2011-05-28
+//  Created by kazuya kawaguchi on 2011-05-29
 //  Copyright 2011 kazuya kawaguchi & frapwings All rights reserved.
 //  
 
@@ -15,7 +15,7 @@
  * @discussion
  *
  * @availability
- *  FWFoundatoin 0.1
+ *  FWFoundation 0.1
  */
 @interface NSObject (Addition)
 
@@ -31,7 +31,7 @@
  * @param firstArgument An object that is the first argument in some arguments.
  * @result An object that is the result of the message.
  * @availability
- *  FWFoundatoin 0.1
+ *  FWFoundation 0.1
  */
 + (id)performToTarget:(id)target withSelector:(SEL)selector 
       withArguments:(id)firstArgument, ...;
@@ -47,7 +47,7 @@
  * @param firstObject An object that is the first object in some objects.
  * @result An object that is the result of the message.
  * @availability
- *  FWFoundatoin 0.1
+ *  FWFoundation 0.1
  */
 - (id)performSelector:(SEL)selector withObjets:(id)firstObject, ...;
 

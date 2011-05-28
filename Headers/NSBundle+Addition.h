@@ -1,6 +1,6 @@
 //   
 //  NSBundle+Addtion.h
-//  FWFoundatoin
+//  FWFoundation
 //  
 //  Created by kazuya kawaguchi on 2011-05-29
 //  Copyright 2011 kazuya kawaguchi & frapwings All rights reserved.
@@ -13,9 +13,10 @@
  * @abstract
  *  This category is extended the NSBundle.
  * @discussion
+ *  TODO: write description ...
  *
  * @availability
- *  FWFoundatoin 0.1
+ *  FWFoundation 0.1
  */
 @interface NSBundle (Addition)
 
@@ -24,10 +25,11 @@
  * @abstract
  *  Get a bundle from main bundle of releative path.
  * @discussion
+ *  TODO: write description ...
  *
  * @result A bundle.
  * @availability
- *  FWFoundatoin 0.1
+ *  FWFoundation 0.1
  */
 + (NSBundle *)bundleFromMainBundleRelativePath:(NSString *)bundlePath;
 

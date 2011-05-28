@@ -1,8 +1,8 @@
 //   
 //  NSDictionary+Addition.h
-//  FWFoundatoin
+//  FWFoundation
 //  
-//  Created by kazuya kawaguchi on 2010-12-09.
+//  Created by kazuya kawaguchi on 2011-05-29
 //  Copyright 2011 kazuya kawaguchi & frapwings All rights reserved.
 //  
 
@@ -13,10 +13,10 @@
  * @abstract
  *  This category is extended in NSDictionary.
  * @discussion
- *  TODO: wirte description ...
+ *  TODO: write description ...
  *
  * @availability
- *  FWFoundatoin 0.1
+ *  FWFoundation 0.1
  */
 @interface NSDictionary (Addition)
 
@@ -25,12 +25,12 @@
  * @abstract
  *  Check the key exisits in dicitionary.
  * @discussion
- *  TODO: wirte description ...
+ *  TODO: write description ...
  *
  * @param key The key.
  * @result YES or NO.
  * @availability
- *  FWFoundatoin 0.1
+ *  FWFoundation 0.1
  */
 - (BOOL)isExist:(id)key;
 

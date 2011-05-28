@@ -1,8 +1,8 @@
 //   
 //  NSMutableDictionary+Addition.m
-//  FWFoundatoin
+//  FWFoundation
 //  
-//  Created by kazuya kawaguchi on 2011-05-29
+//  Created by kazuya kawaguchi on 2010-12-09.
 //  Copyright 2011 kazuya kawaguchi & frapwings All rights reserved.
 //  
 

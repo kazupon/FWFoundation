@@ -1,6 +1,6 @@
 //   
 //  NSBundle+AdditionTest.m
-//  FWFoundatoin
+//  FWFoundation
 //  
 //  Created by kazuya kawaguchi on 2011-05-29
 //  Copyright 2011 kazuya kawaguchi & frapwings All rights reserved.
@@ -18,7 +18,7 @@
     NSString *key = @"Hoge";
     NSString *value = @"Foo";
     NSBundle *bundle = 
-        [NSBundle bundleFromMainBundleRelativePath:@"FWFoundatoin.bundle"];
+        [NSBundle bundleFromMainBundleRelativePath:@"FWFoundation.bundle"];
     GHAssertNotNil(bundle, nil);
     GHAssertEqualStrings(value, [bundle localizedStringForKey:key 
                                                         value:value 

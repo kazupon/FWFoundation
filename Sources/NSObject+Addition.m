@@ -1,13 +1,14 @@
 //   
 //  NSObject+Addition.m
-//  FWFoundatoin
+//  FWFoundation
 //  
-//  Created by kazuya kawaguchi on 2011-05-28
+//  Created by kazuya kawaguchi on 2011-05-29
 //  Copyright 2011 kazuya kawaguchi & frapwings All rights reserved.
 //  
 
 #import "NSObject+Addition.h"
 #import <stdarg.h>
+
 
 
 @implementation NSObject (Addition)
