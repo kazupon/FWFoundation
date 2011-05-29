@@ -8,7 +8,7 @@
 OTHER_LDFLAGS = -ObjC
 PRODUCT_NAME = FWFoundation
 
-FRAMEWORK_SEARCH_PATHS = $(inherited) "$(SRCROOT)/Frameworks"
+FRAMEWORK_SEARCH_PATHS = $(inherited) "$(SRCROOT)/Frameworks" "$(SRCROOT)/Frameworks/$(TARGET)"  
 HEADER_SEARCH_PATHS = 
 LIBRARY_SEARCH_PATHS = 
 

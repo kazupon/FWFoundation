@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		AA747D9F0F9514B9006C5449 /* FWFoundation_Prefix.pch in Headers */ = {isa = PBXBuildFile; fileRef = AA747D9E0F9514B9006C5449 /* FWFoundation_Prefix.pch */; };
 		AACBBE4A0F95108600F1A2B1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AACBBE490F95108600F1A2B1 /* Foundation.framework */; };
+		CB99C2CD13925B0700871ABF /* GTMiOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB99C2CC13925B0700871ABF /* GTMiOS.framework */; };
+		CB99C2ED13925B2000871ABF /* GTMiOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB99C2CC13925B0700871ABF /* GTMiOS.framework */; };
 		CBF6699D1390F9E7001AD176 /* GHUnitIOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBF6699C1390F9E7001AD176 /* GHUnitIOS.framework */; };
 		CBF669A11390FA10001AD176 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBF669A01390FA10001AD176 /* CoreGraphics.framework */; };
 		CBF669A21390FA10001AD176 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AACBBE490F95108600F1A2B1 /* Foundation.framework */; };
@@ -44,14 +46,13 @@
 		CBF66AD413917953001AD176 /* FWFoundationDefines.m in Sources */ = {isa = PBXBuildFile; fileRef = CBF66AD013917953001AD176 /* FWFoundationDefines.m */; };
 		CBF66AD513917953001AD176 /* FWHttpClient.m in Sources */ = {isa = PBXBuildFile; fileRef = CBF66AD113917953001AD176 /* FWHttpClient.m */; };
 		CBF66AD713917960001AD176 /* FWHttpClientTest.m in Sources */ = {isa = PBXBuildFile; fileRef = CBF66AD613917960001AD176 /* FWHttpClientTest.m */; };
-		CBF66ADB13917975001AD176 /* GTMiOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBF66ADA13917975001AD176 /* GTMiOS.framework */; };
-		CBF66AE71391799A001AD176 /* GTMiOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBF66ADA13917975001AD176 /* GTMiOS.framework */; };
 		CBF66BB8139183FC001AD176 /* FWFoundation.bundle in Resources */ = {isa = PBXBuildFile; fileRef = CBF66BB7139183FC001AD176 /* FWFoundation.bundle */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		AA747D9E0F9514B9006C5449 /* FWFoundation_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FWFoundation_Prefix.pch; sourceTree = "<group>"; };
 		AACBBE490F95108600F1A2B1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		CB99C2CC13925B0700871ABF /* GTMiOS.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GTMiOS.framework; path = Frameworks/Debug/GTMiOS.framework; sourceTree = "<group>"; };
 		CBF6692E1390F576001AD176 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CBF669941390F6E3001AD176 /* Tests.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tests.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CBF669961390F6E3001AD176 /* Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Tests-Info.plist"; sourceTree = "<group>"; };
@@ -83,7 +84,6 @@
 		CBF66AD013917953001AD176 /* FWFoundationDefines.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FWFoundationDefines.m; sourceTree = "<group>"; };
 		CBF66AD113917953001AD176 /* FWHttpClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FWHttpClient.m; sourceTree = "<group>"; };
 		CBF66AD613917960001AD176 /* FWHttpClientTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FWHttpClientTest.m; sourceTree = "<group>"; };
-		CBF66ADA13917975001AD176 /* GTMiOS.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GTMiOS.framework; path = Frameworks/GTMiOS.framework; sourceTree = "<group>"; };
 		CBF66BB7139183FC001AD176 /* FWFoundation.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = FWFoundation.bundle; path = Tests/Data/FWFoundation.bundle; sourceTree = SOURCE_ROOT; };
 		D2AAC07E0554694100DB518D /* libFWFoundation.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libFWFoundation.a; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -93,7 +93,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CBF66AE71391799A001AD176 /* GTMiOS.framework in Frameworks */,
+				CB99C2ED13925B2000871ABF /* GTMiOS.framework in Frameworks */,
 				CBF6699D1390F9E7001AD176 /* GHUnitIOS.framework in Frameworks */,
 				CBF669A11390FA10001AD176 /* CoreGraphics.framework in Frameworks */,
 				CBF669A21390FA10001AD176 /* Foundation.framework in Frameworks */,
@@ -106,7 +106,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				AACBBE4A0F95108600F1A2B1 /* Foundation.framework in Frameworks */,
-				CBF66ADB13917975001AD176 /* GTMiOS.framework in Frameworks */,
+				CB99C2CD13925B0700871ABF /* GTMiOS.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -141,7 +141,7 @@
 		0867D69AFE84028FC02AAC07 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				CBF66ADA13917975001AD176 /* GTMiOS.framework */,
+				CB99C2CC13925B0700871ABF /* GTMiOS.framework */,
 				CBF6699C1390F9E7001AD176 /* GHUnitIOS.framework */,
 				CBF669A01390FA10001AD176 /* CoreGraphics.framework */,
 				CBF669A31390FA10001AD176 /* UIKit.framework */,
@@ -369,6 +369,7 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SRCROOT)/Frameworks\"",
+					"\"$(SRCROOT)/Frameworks/Debug\"",
 				);
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_ENABLE_FIX_AND_CONTINUE = YES;
@@ -392,6 +393,7 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SRCROOT)/Frameworks\"",
+					"\"$(SRCROOT)/Frameworks/Release\"",
 				);
 				GCC_MODEL_TUNING = G5;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
@@ -439,6 +441,7 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SRCROOT)/Frameworks\"",
+					"\"$(SRCROOT)/Frameworks/Debug\"",
 				);
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
@@ -465,27 +468,31 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "Don't Code Sign";
 				COPY_PHASE_STRIP = YES;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SRCROOT)/Frameworks\"",
+					"\"$(SRCROOT)/Frameworks/Release\"",
 				);
 				GCC_ENABLE_FIX_AND_CONTINUE = NO;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "$(SYSTEM_LIBRARY_DIR)/Frameworks/UIKit.framework/Headers/UIKit.h";
+				GCC_PREFIX_HEADER = Tests_Prefix.pch;
+				GCC_PREPROCESSOR_DEFINITIONS = "FW_DEBUG_LEVEL=7";
 				INFOPLIST_FILE = "Tests-Info.plist";
 				INSTALL_PATH = "$(HOME)/Applications";
+				IPHONEOS_DEPLOYMENT_TARGET = 3.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
 				OTHER_LDFLAGS = (
-					"-framework",
-					Foundation,
-					"-framework",
-					UIKit,
+					"-ObjC",
+					"-all_load",
 				);
 				PREBINDING = NO;
 				PRODUCT_NAME = Tests;
+				PROVISIONING_PROFILE = "";
 				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
 				ZERO_LINK = NO;
 			};
 			name = Release;
