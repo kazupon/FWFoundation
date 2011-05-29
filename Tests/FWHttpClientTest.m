@@ -141,8 +141,11 @@ const NSTimeInterval kRunLoopInterval = 0.01;
 
 
 - (void)testDeleteWithURL {
-    
-    GHFail(nil);
+
+    FWHttpClient *client = 
+        [[[FWHttpClient alloc] initWithDelegate:self] autorelease];
+    GHAssertThrows([client requestDELETE:@"http://localhost:8080/delete.html"], nil);
+    //GHFail(nil);
 }
 
 
@@ -168,7 +171,7 @@ const NSTimeInterval kRunLoopInterval = 0.01;
 - (void)testCancel {
     FWHttpClient *client = 
                     [[[FWHttpClient alloc] initWithDelegate:self] autorelease];
-    GHAssertNoThrow([client cancel], nil);
+    GHAssertThrows([client cancel], nil);
 }
 
 
