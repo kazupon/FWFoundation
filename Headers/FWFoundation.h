@@ -19,7 +19,7 @@
 #import "FWDebug.h"
 #import "NSObject+Addition.h"
 #import "NSDictionary+Addition.h"
-#import "NSMutalbeDictionay+Addition.h"
+#import "NSMutableDictionary+Addition.h"
 #import "NSBundle+Addition.h"
 #import "NSData+Addition.h"
 #import "FWHttpClient.h"
